@@ -49,11 +49,11 @@ with st.expander("About Pronto Viz"):
 col1, col2 = st.columns(2)
 with col1:
     if st.button("Open Manual for Pronto Genie"):
-        st.markdown("<a href='https://github.com/Habeeb-UrRahman/ProntoMitra_Manuals/blob/main/Pronto%20Genie%20User%20Manual.pdf' target='_blank'>Open Manual for Pronto Genie</a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://drive.google.com/file/d/1IAx34Qi6QeBbXK4e3eu_UHlxBsA94ZXW/view?usp=sharing' target='_blank'>Open Manual for Pronto Genie</a>", unsafe_allow_html=True)
 
 with col2:
     if st.button("Open Manual for Pronto Viz"):
-        st.markdown("<a href='https://github.com/Habeeb-UrRahman/ProntoMitra_Manuals/blob/main/ProntoViz%20User%20Manual.pdf' target='_blank'>Open Manual for ProntoViz</a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://drive.google.com/file/d/1TjABw0t0BA2qugcIlJrP0BXeivSVwr4G/view?usp=sharing' target='_blank'>Open Manual for ProntoViz</a>", unsafe_allow_html=True)
 
 # Footer with adjusted styling and alignment
 st.markdown("""
