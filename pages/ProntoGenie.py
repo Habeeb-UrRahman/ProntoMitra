@@ -206,7 +206,7 @@ def main():
         st.image('assets/ProntoGenie.png', use_column_width=True)  # Path to your image in the assets folder
     with col1:
         st.title("Welcome to Pronto Mitra")
-        st.subheader("Pronto Genie")
+        st.write("## Pronto Genie")
 
 
     # Wait for file uploads
