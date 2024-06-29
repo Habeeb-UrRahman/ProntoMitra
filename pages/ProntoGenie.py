@@ -20,6 +20,10 @@ st.sidebar.image('assets/logo_1_1.png', width=250)  # Adjust path and width as n
 st.sidebar.title("Upload Documents Data File")
 data_1_file = st.sidebar.file_uploader("Upload File", type=["xlsx"])
 
+# Display green box to upload file
+if data_1_file is None:
+    st.sidebar.info("🟢 Upload a file to get started!")
+
 # Add a link to view the format with an image
 with st.sidebar.expander("View data format"):
     st.image('assets/excelformat.png', use_column_width=True)  # Path to your image in the assets folder
