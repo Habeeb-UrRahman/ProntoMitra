@@ -201,7 +201,7 @@ def predict_future_docs(num_projects_next_month, start_date, months, models, mod
 # Main Streamlit application
 def main():
     # Title and tagline for Pronto Mitra
-    col1, col2 = st.columns([5, 1])
+    col1, col2 = st.columns([6, 1])
     with col2:
         st.image('assets/ProntoGenie.png', use_column_width=True)  # Path to your image in the assets folder
     with col1:
