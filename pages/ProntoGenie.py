@@ -201,10 +201,13 @@ def predict_future_docs(num_projects_next_month, start_date, months, models, mod
 # Main Streamlit application
 def main():
     # Title and tagline for Pronto Mitra
-    st.title('Welcome to Pronto Mitra')
-    
-    # Separate section for Pronto Genie
-    st.markdown('## Pronto Genie')
+    col1, col2 = st.columns([4, 1])
+    with col2:
+        st.image('assets/ProntoGenie.png', use_column_width=True)  # Path to your image in the assets folder
+    with col1:
+        st.title("Welcome to Pronto Mitra")
+        st.subheader("Pronto Genie")
+
 
     # Wait for file uploads
     if data_1_file:
