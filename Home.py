@@ -173,6 +173,6 @@ st.markdown("""
     }
     </style>
     <div class="footer">
-        <p style="margin-right: 500px;">Developed by <a href="https://www.linkedin.com/in/saitharunjami/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> Jami Sai Tharun <a href="https://www.linkedin.com/in/habeeb-urrahman/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> Habeeb Ur Rahman</p>
+        <p style="margin-right: 500px;">Developed by <a href="https://www.linkedin.com/in/habeeb-urrahman/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> Habeeb Ur Rahman <a href="https://www.linkedin.com/in/saitharunjami/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> Jami Sai Tharun</p>
     </div>
     """, unsafe_allow_html=True)
