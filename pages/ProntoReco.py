@@ -99,7 +99,9 @@ def print_details(title, data):
     st.write("\n")
 
 # Streamlit application
-st.title("Document Reconciliation")
+# st.title("Document Reconciliation")
+st.title("ProntoReco")
+st.header("Document Reconciliation")
 
 po_file = st.file_uploader("Upload Purchase Order (PO) PDF", type="pdf")
 invoice_file = st.file_uploader("Upload Invoice PDF", type="pdf")
